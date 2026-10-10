@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#151a1c">
+<meta name="description" content="ギリねこと暮らす。相模原、六畳、まだ何も揃ってない部屋。">
+<title>ギリねこ | 六畳暮らし</title>
+<style>
+:root{color-scheme:dark;--bg:#151a1c;--panel:#232a2b;--panel2:#2e3738;--line:#3e4847;--txt:#edeae2;--sub:#b2b8b4;--muted:#82908c;--amber:#d3af83;--green:#9eb7a6}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-height:100svh;background:var(--bg);color:var(--txt);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif;letter-spacing:.015em}button,textarea{font:inherit}button{cursor:pointer}button:focus-visible,textarea:focus-visible,summary:focus-visible{outline:2px solid var(--amber);outline-offset:3px}button:disabled{opacity:.4;cursor:not-allowed}.wrap{max-width:1030px;margin:auto;padding:22px 16px 60px}header{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;padding:0 4px 20px}.kicker{color:var(--amber);font-size:10px;letter-spacing:.21em}h1{font-size:30px;font-weight:560;margin:5px 0 0;letter-spacing:.07em}.time{font-size:12px;color:var(--sub);white-space:nowrap}.statusdot{display:inline-block;width:7px;height:7px;background:var(--green);border-radius:50%;margin-right:7px}.layout{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(340px,.85fr);align-items:start;gap:15px}.panel{background:var(--panel);border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 18px 35px #0002}.bar{display:flex;align-items:center;justify-content:space-between;gap:9px;padding:14px 16px;border-bottom:1px solid var(--line)}.bar strong{font-size:13px;font-weight:600}.bar small{color:var(--muted);font-size:11px}.room{position:relative;isolation:isolate;height:348px;overflow:hidden;background:linear-gradient(180deg,#959991 0 62%,#756f63 62%)}.room.night{background:linear-gradient(180deg,#445258 0 62%,#55534e 62%)}.room.evening{background:linear-gradient(180deg,#98928a 0 62%,#86786b 62%)}.room:after{content:"";position:absolute;top:62%;left:0;right:0;height:2px;background:#423c3670}.room .ambient{position:absolute;inset:0;pointer-events:none;background:linear-gradient(105deg,transparent 45%,#ffffff0a 65%,transparent 87%)}.window{position:absolute;right:9%;top:27px;width:142px;height:122px;border:8px solid #b3b7b1;background:linear-gradient(150deg,#9eb3b0,#d7c9ac);box-shadow:0 3px 7px #1113}.night .window{background:linear-gradient(150deg,#293c50,#677080)}.evening .window{background:linear-gradient(145deg,#a5a09e,#d8b699)}.window:after{content:"";position:absolute;top:48%;left:0;right:0;height:5px;background:#b3b7b1}.window:before{content:"";position:absolute;left:48%;top:0;bottom:0;width:5px;background:#b3b7b1}.curtain{position:absolute;right:calc(9% - 14px);top:14px;width:170px;height:148px;border-left:14px solid #c0bdb0;border-right:14px solid #c0bdb0;opacity:.68}.futon{position:absolute;bottom:27px;left:-37px;width:228px;height:79px;transform:skew(-17deg) rotate(-6deg);background:linear-gradient(120deg,#ddd9d0,#b9b5aa);border-radius:32px 17px 20px 12px;box-shadow:4px 9px 0 #6a6962,4px 14px 14px #0003}.futon:after{content:"";position:absolute;left:21px;top:-16px;width:85px;height:35px;background:#cbc9c0;border-radius:22px;box-shadow:0 4px 0 #aca9a0}.tv{position:absolute;right:22px;bottom:101px;width:127px;height:78px;border:6px solid #1e2224;background:linear-gradient(140deg,#243b42,#1b272e);border-radius:4px;box-shadow:0 9px 2px #3734314d}.tv:after{content:"";position:absolute;bottom:-16px;left:31%;width:38%;height:4px;background:#2a2928;box-shadow:0 4px 0 #c2b9a9}.carton{position:absolute;right:100px;bottom:26px;width:132px;height:62px;transform:skew(-11deg);background:#ad8969;border:2px solid #7f604a;box-shadow:0 7px 0 #6e523e}.carton:before{content:"";position:absolute;left:50%;top:0;bottom:0;border-left:2px dashed #80624b}.bottle{position:absolute;right:161px;bottom:94px;width:19px;height:34px;border-radius:4px 4px 7px 7px;background:#767f68;box-shadow:0 -8px 0 -5px #dee0d0}.bag{position:absolute;bottom:15px;left:43%;width:39px;height:48px;background:#d4d3ca7d;border-radius:5px 5px 10px 10px;transform:rotate(9deg)}.bag:before{content:"";position:absolute;left:12px;top:-10px;width:13px;height:19px;border:3px solid #d5d1c8;border-bottom:0;border-radius:12px 12px 0 0}.giri{position:absolute;z-index:2;left:30%;bottom:29px;width:190px;height:264px;appearance:none;padding:0;background:none;border:0;filter:drop-shadow(6px 9px 6px #0004);transform-origin:50% 100%;transition:transform .2s ease}.giri:hover{transform:translateY(-3px)}.giri.bump{animation:bump .4s ease}@keyframes bump{50%{transform:translateY(-7px) rotate(-2deg)}}.giri svg{width:100%;height:100%}.room-caption{position:absolute;right:11px;bottom:10px;color:#e4e1d8;background:#171b1bcc;border-radius:30px;font-size:10px;padding:5px 10px;z-index:3}.observation{padding:14px 17px;min-height:64px;border-top:1px solid #ffffff12;font-size:13px;line-height:1.7;color:#d4d2c9}.observation strong{font-weight:500;color:var(--amber)}.quiet{padding:0 17px 15px;color:var(--muted);font-size:11px;line-height:1.6}.chat{height:580px;display:flex;flex-direction:column}.messages{padding:15px 13px 10px;overflow-y:auto;flex:1;display:flex;flex-direction:column;gap:14px;scroll-behavior:smooth}.msg{display:flex;flex-direction:column;gap:5px;align-self:flex-start;max-width:89%}.msg.you{align-self:flex-end;align-items:flex-end}.who{font-size:10px;color:var(--muted);padding:0 4px}.bubble{white-space:pre-wrap;overflow-wrap:anywhere;background:#343d3d;padding:11px 13px;font-size:13px;line-height:1.8;border-radius:13px 13px 13px 3px}.you .bubble{background:#544f46;border-radius:13px 13px 3px 13px}.composer{padding:11px;background:#1d2425;border-top:1px solid var(--line);display:flex;gap:9px}.composer textarea{flex:1;min-width:0;background:#303939;border:1px solid #4a5654;border-radius:10px;padding:12px;color:var(--txt);resize:vertical;max-height:130px;min-height:46px;font-size:14px}.composer textarea::placeholder{color:#96a19c}.send{border:0;border-radius:10px;background:var(--amber);color:#292928;font-weight:650;font-size:13px;padding:0 19px}.disclaimer{padding:0 14px 12px;background:#1d2425;font-size:10px;line-height:1.6;color:#94a19d}.below{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-top:15px}details{background:var(--panel);border:1px solid var(--line);border-radius:13px;font-size:12px;line-height:1.7;padding:13px 15px}summary{cursor:pointer;list-style:none;font-weight:600;font-size:13px}summary::-webkit-details-marker{display:none}summary:after{content:"＋";float:right;color:var(--amber)}details[open] summary:after{content:"−"}.detailsbody{padding:12px 0 2px;color:var(--sub)}.detailsbody p{margin:0 0 10px}.detailsbody button{border:1px solid #69716c;color:var(--txt);background:#343d3c;border-radius:7px;padding:7px 9px;margin:2px 4px 5px 0;font-size:11px}.logrow{padding:8px 0;border-bottom:1px solid #ffffff12}.logrow time{display:block;font-size:10px;color:var(--muted)}footer{font-size:11px;color:var(--muted);line-height:1.8;margin:22px 4px 0}@media(max-width:800px){.layout{grid-template-columns:1fr}.chat{height:430px}.room{height:320px}.below{gap:10px}}@media(max-width:420px){.wrap{padding:16px 10px 45px}h1{font-size:27px}header{padding:0 4px 15px}.room{height:290px}.giri{left:26%;bottom:23px;transform:scale(.89);transform-origin:bottom center}.window{right:7%;width:115px;height:100px}.curtain{right:calc(7% - 13px);width:143px;height:125px}.tv{right:11px;width:100px;bottom:98px}.carton{right:69px;width:110px}.bottle{right:130px}.futon{width:190px}.chat{height:420px}.below{grid-template-columns:1fr}}@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><div><div class="kicker">SAGAMIHARA / LIFE LOG</div><h1>ギリねこ <span aria-hidden="true">🐈‍⬛</span></h1></div><div class="time"><span class="statusdot"></span><span id="now">六畳の部屋</span></div></header>
+<main class="layout">
+<section class="panel" aria-label="ギリねこの部屋">
+  <div class="bar"><strong>六畳の暮らし</strong><small id="date">相模原</small></div>
+  <div class="room" id="room"><div class="window"></div><div class="curtain"></div><div class="futon"></div><div class="tv"></div><div class="carton"></div><div class="bottle"></div><div class="bag"></div><div class="ambient"></div>
+    <button type="button" class="giri" id="giri" aria-label="ギリねこに声をかける" title="ギリをタップ">
+      <svg viewBox="0 0 190 264" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="黒っぽい乱れ髪と暗い猫耳、ゆるい服のギリねこ。眠たそうに座っている">
+        <path d="M128 145 Q188 151 174 208 Q166 236 141 210" fill="none" stroke="#303137" stroke-width="16" stroke-linecap="round"/>
+        <path d="M54 178 Q55 231 48 258 L87 258 97 209 102 258 147 258 128 174Z" fill="#3e4549"/><path d="M97 208L101 256" stroke="#2b3035" stroke-width="3"/>
+        <path d="M118 132 Q151 138 147 185 L135 194 Q122 171 118 160" fill="#ddbfad"/>
+        <path d="M46 112 Q21 122 25 173 L48 186 64 159Z" fill="#54565a"/>
+        <path d="M49 115 Q92 104 129 113 Q147 146 135 198 Q89 211 43 191 Q36 155 49 115Z" fill="#545557"/>
+        <path d="M81 96 L112 97 114 126 78 128Z" fill="#d8bdaf"/>
+        <path d="M56 32 Q45 12 38 4L89 31Z" fill="#2f3036"/><path d="M110 32 Q126 12 144 4L137 53Z" fill="#2f3036"/>
+        <path d="M57 29 Q49 17 45 13L80 34Z" fill="#665b62"/><path d="M118 29L139 13 133 45Z" fill="#65565f"/>
+        <path d="M42 64 Q45 22 85 23 Q126 12 144 59 L138 115 Q123 131 111 122 L58 123Q44 114 42 64Z" fill="#313037"/>
+        <path d="M58 61 Q62 42 96 44 Q131 45 130 77L125 104 Q114 125 93 124 Q67 124 59 102Z" fill="#dfc6b7"/>
+        <path d="M50 55 Q59 27 94 31 Q117 25 135 52 Q114 56 96 53 Q78 66 53 69Z" fill="#2c2c32"/>
+        <path d="M48 54 Q37 91 48 126 L66 132 57 85Z" fill="#303037"/><path d="M133 54 Q145 83 136 130 L116 134 125 87Z" fill="#303037"/>
+        <path d="M66 88Q77 85 83 88" fill="none" stroke="#544a48" stroke-width="2" stroke-linecap="round"/><path d="M106 87Q117 84 123 86" fill="none" stroke="#544a48" stroke-width="2" stroke-linecap="round"/>
+        <path d="M74 99 Q79 102 83 99M107 98Q113 101 119 97" fill="none" stroke="#b98c86" stroke-width="1.2"/>
+        <path d="M91 112 Q97 113 101 111" stroke="#8d6866" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+        <path d="M65 72Q84 65 102 44Q102 59 124 73" stroke="#2d2b31" stroke-width="12" stroke-linecap="round" fill="none"/>
+        <path d="M44 191 Q76 206 134 196" fill="none" stroke="#424549" stroke-width="3"/>
+      </svg>
+    </button><div class="room-caption">仮の立ち絵・部屋</div>
+  </div>
+  <div class="observation" id="scene" aria-live="polite">段ボール机の前。ギリはスマホをいじっている。</div>
+  <div class="quiet">布団、段ボール机、まだ台のないテレビ。本人をタップすると反応する。</div>
+</section>
+<section class="panel chat" aria-label="ギリと話す">
+  <div class="bar"><strong>ギリと話す</strong><small>無料・端末内の試作版</small></div>
+  <div class="messages" id="messages" aria-live="polite" aria-relevant="additions"></div>
+  <form class="composer" id="form"><textarea id="input" rows="1" maxlength="700" aria-label="ギリへのメッセージ" placeholder="好きに話しかけて。選択肢はない。"></textarea><button class="send" type="submit">送る</button></form>
+  <div class="disclaimer">今は簡単な会話パターンだけ。AIには未接続だから、長い会話を正確に理解することはまだできない。</div>
+</section>
+</main>
+<section class="below">
+  <details><summary>生活の記録</summary><div class="detailsbody" id="log"><p>記録はまだない。</p></div></details>
+  <details><summary>記録を持ち出す</summary><div class="detailsbody"><p>会話と記録は、このブラウザ内だけに保存。閉じても残るけど、端末変更で自動移行はしない。</p><button id="export" type="button">記録を書き出す</button><button id="import" type="button">記録を読み込む</button><input id="file" type="file" accept=".json,application/json" hidden><p>プライベートなAPIキーは入力しないでね。将来のAI会話接続は別途設計する。</p></div></details>
+</section>
+<footer>GIRI NEKO / first playable draft. ギリはSENAとは別人格。Notionの基準設定を参考にした、外部送信なしの初期試作。過去ログと会話の自動同期はまだ未実装。</footer>
+</div>
+<script>
+(()=>{
+'use strict';
+const KEY='giri-neko-demo-v1';
+const $=id=>document.getElementById(id);
+const box=$('messages'),log=$('log'),room=$('room'),avatar=$('giri'),scene=$('scene'),input=$('input');
+const bank={
+ hello:['……おはよ。','ん。……起きてたんだ。','おはよ。冷蔵庫、なんもないけど。'],
+ return:['……おかえり。','おかえり。……今日どうだった？','お。帰ってきた。'],
+ food:['……肉食いたい。久しぶりに。','またうどんか……まあ、食べるけど。','卵、まだ残ってたっけ。'],
+ work:['……変な奴の言うこと、全部真に受けんなよ。','仕事か。帰ってきたら話、聞く。','……そっか。面倒だな、それ。'],
+ money:['……お金ないの、知ってる。','テレビ台より先に食費だろ。','余裕できたら、どんぶり買おう。'],
+ game:['ゲームやんの？ 私も見る。','……それ、また何時間も遊ぶやつじゃん。','操作わかんないけど、貸して。'],
+ sleep:['……眠い。','ん。もう寝る？','布団、そっち寄せて。'],
+ outside:['散歩ならタダだしな。','買い物？ 何買うか決めてから行こうぜ。','外、ちょっと涼しいかな。'],
+ photo:['……また撮んの？','変な顔してても知らん。','そんなに撮って、どうすんだよ。'],
+ affection:['……急に言うなよ。','……ん。私も。','ふふ。……何だよ。'],
+ sad:['……そっか。','……ちょっと、こっち来れば。','うまいこと言えないけど。話は聞くよ。'],
+ weather:['洗濯物、外に干すか迷うな。','……ベランダ、ちょっと寒くなった。','雨の音って、部屋にいる分には悪くない。'],
+ question:['……それ、まだわかんない。','んー。ちょっと考える。','……正直、今は答えが出ない。'],
+ other:['……ん。','何それ。','……聞いてる。','へえ。それで？','……お前、急に変なこと言うな。']
+};
+function fresh(){return{version:1,messages:[{who:'giri',text:'（段ボール机から目だけ上げる）\n……ん。おはよ。',at:Date.now()}],events:[],n:0,lastAmbient:Date.now()}}
+function sanitize(s){if(!s||s.version!==1||!Array.isArray(s.messages)||!Array.isArray(s.events))throw Error('invalid');return{version:1,messages:s.messages.filter(m=>m&&(m.who==='me'||m.who==='giri')&&typeof m.text==='string'&&m.text.length<=1500).slice(-160),events:s.events.filter(e=>e&&typeof e.text==='string'&&e.text.length<=150).slice(-40),n:Number.isSafeInteger(s.n)&&s.n>=0?s.n:0,lastAmbient:Date.now()}}
+function get(){try{let raw=localStorage.getItem(KEY);return raw?sanitize(JSON.parse(raw)):fresh()}catch(e){return fresh()}}
+let state=get();
+function persist(){try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){scene.textContent='保存ができない設定みたい。必要なら「記録を書き出す」を使って。'}}
+function t(d){const x=new Date(d);return String(x.getHours()).padStart(2,'0')+':'+String(x.getMinutes()).padStart(2,'0')}
+function drawMessage(m){const a=document.createElement('div');a.className='msg '+(m.who==='me'?'you':'');const label=document.createElement('div');label.className='who';label.textContent=(m.who==='me'?'カイト':'ギリ')+' · '+t(m.at||Date.now());const b=document.createElement('div');b.className='bubble';b.textContent=m.text;a.append(label,b);box.appendChild(a);box.scrollTop=box.scrollHeight}
+function add(who,text){let m={who,text,at:Date.now()};state.messages.push(m);state.messages=state.messages.slice(-160);drawMessage(m);persist()}
+function drawLog(){log.replaceChildren();if(!state.events.length){let p=document.createElement('p');p.textContent='記録はまだない。';log.appendChild(p);return}state.events.slice(-12).reverse().forEach(e=>{let r=document.createElement('div');r.className='logrow';let time=document.createElement('time');time.textContent=new Date(e.at).toLocaleString('ja-JP');let span=document.createElement('span');span.textContent=e.text;r.append(time,span);log.appendChild(r)})}
+function event(text){state.events.push({text,at:Date.now()});state.events=state.events.slice(-40);drawLog();persist()}
+function react(text){scene.textContent=text;avatar.classList.remove('bump');void avatar.offsetWidth;avatar.classList.add('bump')}
+function classify(text){const s=text.toLowerCase().replace(/\s/g,'');if(/おはよ|起きた/.test(s))return['hello','ギリが髪をかき上げる。'];if(/ただいま|帰った|帰宅/.test(s))return['return','ギリの耳が玄関の方へ動く。'];if(/仕事|職場|派遣|出勤|バカにされた|馬鹿にされた/.test(s))return['work','ギリがスマホを伏せる。'];if(/腹減|お腹|飯|ごはん|食べ|うどん|ラーメン|肉|卵|uber/.test(s))return['food','ギリがキッチンの方を見る。'];if(/金ない|金欠|貧乏|お金|給料|節約/.test(s))return['money','ギリは段ボール机に肘をつく。'];if(/ゲーム|ps5|switch|スカイリム|fallout|ヒットマン/.test(s))return['game','ギリはテレビの方を向いた。'];if(/寝る|おやすみ|眠い/.test(s))return['sleep','ギリは布団をちらっと見る。'];if(/散歩|買い物|ベルク|アリオ|外出/.test(s))return['outside','ギリが窓の外を見る。'];if(/写真|撮る|撮って|カメラ/.test(s))return['photo','ギリが薄目でこちらを見る。'];if(/好き|愛してる|可愛い|かわいい|抱きしめ/.test(s))return['affection','ギリの尻尾がゆっくり揺れる。'];if(/しんどい|寂しい|さみしい|つらい|辛い|悲しい|泣きたい|疲れた/.test(s))return['sad','ギリはスマホを置く。'];if(/雨|天気|晴れ|寒い|暑い|洗濯/.test(s))return['weather','ギリが窓に目を向ける。'];if(/[？?]|なんで|どうして|どう思う/.test(s))return['question','ギリが少し考え込む。'];return['other','ギリがスマホから目を上げる。']}
+function respond(text){const message=text.trim();if(!message)return;add('me',message);let [kind,description]=classify(message);state.n++;let replies=bank[kind];react(description);add('giri',replies[(state.n-1)%replies.length]);let eventNames={return:'カイトが帰ってきた。',food:'食べるものの話をした。',work:'仕事の話をした。',game:'ゲームの話をした。',outside:'外へ出る話をした。',sleep:'寝る話をした。'};if(eventNames[kind])event(eventNames[kind]);input.value='';input.focus()}
+$('form').addEventListener('submit',e=>{e.preventDefault();respond(input.value)});input.addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.shiftKey&&!e.isComposing){e.preventDefault();respond(input.value)}});
+avatar.addEventListener('click',()=>{state.n++;react('ギリがこちらを半目で見上げる。');add('giri',['……何。','……見すぎ。','なんか用？','……そこにいるけど。'][(state.n-1)%4])});
+function clock(){let d=new Date(),h=d.getHours();$('now').textContent=t(d)+' / '+(h<5?'深夜':h<11?'朝':h<17?'昼':h<20?'夕方':'夜');$('date').textContent=(d.getMonth()+1)+'月'+d.getDate()+'日 / 相模原';room.className='room'+(h<6||h>=19?' night':h>=16?' evening':'')}
+$('export').addEventListener('click',()=>{const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json'});let url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='giri-neko-save.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1500)});
+$('import').addEventListener('click',()=>$('file').click());$('file').addEventListener('change',e=>{const f=e.target.files?.[0];if(!f)return;if(f.size>1024*1024){alert('ファイルが大きすぎるよ。');e.target.value='';return}const reader=new FileReader();reader.onload=()=>{try{const s=sanitize(JSON.parse(reader.result));if(!confirm('いまの記録を読み込んだ記録で上書きする？'))return;state=s;persist();box.replaceChildren();state.messages.forEach(drawMessage);drawLog();react('記録を読み込んだ。')}catch(x){alert('読み込めないファイルだった。')}};reader.readAsText(f);e.target.value=''});
+state.messages.forEach(drawMessage);drawLog();clock();setInterval(clock,30000);
+// A small bit of atmosphere while this tab is open. This is not an autonomous AI.
+setInterval(()=>{let n=Date.now(),last=state.messages.at(-1)?.at||n;if(document.hidden||n-last<240000||n-state.lastAmbient<420000)return;state.lastAmbient=n;let h=new Date().getHours(),line=h>=23||h<5?'……もうこんな時間か。':h<11?'……朝、なんか食う？':h<18?'……ちょっとぼーっとしてた。':'……腹減ってきた。';react('ギリが独り言みたいにぽつりと話す。');add('giri',line)},45000);
+})();
+</script>
+</body>
+</html>
